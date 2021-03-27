@@ -32,7 +32,7 @@ import { CoreEntity } from './common/entities/core.entity';
       database: process.env.DB_NAME,
       synchronize: process.env.NODE_ENV !== 'prod',
       logging: true,
-      entities: [User, CoreEntity],
+      entities: [User],
     }),
     UsersModule,
     CommonModule,
